@@ -1,4 +1,4 @@
-name: "Test"
+name: "👀 Test"
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   test:
-    name: "👀 Test"
+    name: "Test"
     runs-on: ubuntu-latest
     steps:
     - name: "Setup node"
